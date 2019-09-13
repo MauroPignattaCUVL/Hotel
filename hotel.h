@@ -32,7 +32,7 @@ extern "C" {
 /*crea el archivo y marca las habitaciones como disponibles*/
 void InitializeRooms(); 
 /*reserva una habitacion*/
-void ReserveRoom(FILE *rooms);
+void RoomReservation(FILE *rooms);
 /*libera una habitacion*/
 void FreeRoom (FILE *rooms);
 /*Imprime el listado de habitaciones*/
