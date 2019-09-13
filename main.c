@@ -32,7 +32,7 @@ int main(int argc, char** argv) {
         stringUpper(option);  // convierte cadena a mayusculas
         if(!strcmp(option,"RESERVAR" ))
         {
-            ReserveRoom(rooms);
+            RoomReservation(rooms);
         }
         if(!strcmp(option, "LIBERAR"))
         {
