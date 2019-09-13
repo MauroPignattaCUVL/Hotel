@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <string.h>  //strcmp
 #include "hotel.h"
 
 int main(int argc, char** argv) {
