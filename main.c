@@ -5,7 +5,7 @@
 
 int main(int argc, char** argv) {
 
-    char option[11];
+    char option[8];
     printf("Inicializar habitaciones? Y/N: ");
     scanf("%s",option);
     stringUpper(option);  // convierte cadena a mayuscula
