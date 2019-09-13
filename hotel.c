@@ -42,7 +42,7 @@ void InitializeRooms()
     return;
 }
 
-void ReserveRoom(FILE *rooms)
+void RoomReservation(FILE *rooms)
 {
     int i=0;
     Room room;
